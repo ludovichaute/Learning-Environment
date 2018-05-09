@@ -3,86 +3,214 @@
   <head>
     <meta charset="utf-8">
     <title>Le MarkDown</title>
+
   </head>
   <body>
 
-    <h1>Une liste a puces et une liste numeroté</h1>
+    <h1>Une liste à puces et une liste numeroté</h1>
 
-    <h2>Une liste a puces</h2>
+    <h1>Introduction à Markdown</h1>
+
+    <p>
+      Markdown est un langage de balisage léger créé par John Gruber en 2004. Son but est d'offrir
+      une syntaxe facile à lire et à écrire.
+      Un document balisé par Markdown peut être lu en l'état sans donner
+      l’impression d'avoir été balisé ou formaté par des instructions particulières.</p>
+
+      <p>Un document balisé par Markdown peut être converti en HTML ou en autres formats.
+        Bien que la syntaxe Markdown ait été influencée par plusieurs filtres de conversion de texte
+        existants vers HTML — dont Setext1, atx2, Textile, reStructuredText, Grutatext et EtText —,
+        la source d’inspiration principale est le format du courrier électronique en mode texte.</p>
+
+    <h1>MarkDown Syntaxe</h1>
+
+    <h2> Une liste numérotée</h2>
+
+    <ul>
+      <li>
+        Pour afficher une liste ordonnée, commencez la ligne par un nombre suivit d’un point.
+        Pour que votre markdown soit plus lisible, je vous conseille d’ordonner proprement votre liste.
+        </li>
+    </ul>
+
+    <h2>Headers (Entêtes)</h2>
+      <pre>
+        # This is an &lt;h1&gt; tag
+        ## This is an &lt;h2&gt; tag
+        ###### This is an &lt;h6&gt; tag
+      </pre>
+
+      <h2>Accentuation (Emphasis)</h2>
+        <p>Ce texte sera en italique, <strong>Ce texte sera en gras.</strong></p>
+
+        <pre>
+          * Ce texte sera en italique *
+          _Ce sera aussi italique_
+          ** Ce texte sera en gras **
+          __Ce sera aussi en gras__
+          * Vous ** pouvez ** les combiner *
+        </pre>
+
+        <h1>Blockquote</h1>
+        <p>L'élément blockquote représente une section citée à partir d'une autre source.</p>
+
+        <img src="img/markdown2.png" alt="Learn Markdown">
+
+        <pre>
+            > Blockquote commande ">"
+        </pre>
+
+        <cite>Linus Torvalds</cite>
+        <cite>La philosophie de Linux est ' Rire face à un danger '. Oups. Ce n'est pas le bon ' Faites-le vous-même '. Oui, c'est ça.</cite>
+
+    <h2>Une liste à puces</h2>
 
       <ul>
           <li>Pour afficher une liste, commencez la ligne par une astérisque*, un moins - ou un plus +. <br>
             Là encore, le choix n’a pas d’importance, mais il faut rester cohérent dans votre document.
           </li>
       </ul>
+      <pre>
+        * sujet 1
+        * sujet 2
 
-      <ul>
-        <li> Exemple:
+      </pre>
+
           <ul>
               <li>Git</li>
               <li>MarkDown</li>
               <li>GitHub</li>
           </ul>
-        </li>
-      </ul>
-        <h2>Une liste numerotee</h2>
+
+        <h2>Liste à puces (Hiérarchiques)</h2>
+
+        <pre>
+          * Item 1
+          * Item 2
+            * Item 2a
+            * Item 2b
+        </pre>
 
         <ul>
-          <li>Pour afficher une liste ordonnée, commencez la ligne par un nombre suivit d’un point. <br>
-            Pour que votre markdown soit plus lisible, je vous conseille d’ordonner proprement votre liste.</li>
-        </ul>
-
-        <ul>
-          <li> Exemple:
-            <ol>
-                <li>Git</li>
-                <li>Markdown</li>
-                <li>GitHub</li>
-            </ol>
+          <li> Introduction à GIT</li>
+          <li>Introduction à MarkDown
+              <ul>
+                <li>Introduccion a MarkDown (Espagnol)</li>
+                <li>Introductie tot MarkDown (Dutch)</li>
+              </ul>
           </li>
         </ul>
 
+        <h1>Liste numérotée</h1>
+
+        <p>
+          Pour afficher une liste ordonnée, commencez la ligne par un nombre suivit d’un point.
+          Pour que votre markdown soit plus lisible, je vous conseille d’ordonner proprement votre liste.
+        </p>
+
+        <pre>
+          1. sujet 1
+          2. sujet 2
+        </pre>
+
+        <ol>
+          <li>Git</li>
+          <li>Markdown</li>
+          <li>GitHub</li>
+        </ol>
+
+        <h2>Listes numérotées (Hiérarchiques)</h2>
+
+        <pre>
+          1. Item 1
+          2. Item 2
+            * Item 2a
+            * Item 2b
+        </pre>
+
+          <ol>
+            <li>Introduction à GIT</li>
+            <li>Introduction à MarkDown
+              <ul>
+                <li>Introduccion a MarkDown (Espagnol)</li>
+                <li>Introductie tot MarkDown (Dutch)</li>
+              </ul>
+            </li>
+          </ol>
           <a href="https://github.com/ludovichaute/exercice-markdown">lien vers le ReadMe</a>
+
+          <h1>Image statique</h1>
+
+            <p>Insèrer une image statique</p>
+
+          <pre>
+            ![image du markDown](markdown.png)
+            Format: ![Alt Text](url)
+          </pre>
+
           <div>
             <img src="img/markdown.png" alt="I'm MarkDown">
           </div>
 
-            <h3>
-Insertion d’une image animée, une liste (à puce ou ordonnée) imbriquées <br>
- (donc plusieurs niveaux hiérarchiques),un bout de code, avec coloration syntaxique
-            </h3>
+          <h1>Image Gif</h1>
+
+          <p>Insèrer une image gif</p>
 
             <div>
               <img src="img/github.gif" alt="Github training">
             </div>
 
-            <h4>Procedure pour insèrer un image gif</h4>
-
-            <code><pre>
+            <pre>
               ![GitHub Logo](/images/logo.png)
                 Format: ![Alt Text](url)
             </pre>
 
-            </code>
+            <h1>Liens</h1>
+            <p>Il suffit d'entrer votre TEXTE à afficher suivi du lien</p>
 
+            <pre>[TEXTE](URL)</pre>
 
+            <h1>Insérer du code</h1>
+            <p>Il suffit d'entrer ``` les au début et à la fin suivi d'un ENTER</p>
 
+            <pre>
+              ```javascript
+              function Mark() {
+              console.log("look ma’, no spaces");
+              }```
+            </pre>
 
+            <h2>Resultat</h2>
+            <pre>
+              function Mark() {
+              console.log("look ma’, no spaces");
+              }
+            </pre>
 
-            <h2>Liste à puces: </h2>
+            <h1>Résumé</h1>
 
-            <p>Voici un example qui decris comme créer des une liste à puce. Voici un example.</p>
+            <p>MarkDown est un moyen de style de texte sur le web. Vous contrôlez l'affichage du document.
+              former des mots comme gras ou italique, ajouter des images et créer des listes sont quelques-unes des choses
+              que nous pouvons faire avec Markdown. Surtout, Markdown est juste du texte régulier avec quelques
+              caractères non-alphabétiques jetés, comme # ou *.</p>
 
-            <ol>
-              <li><a href="https://fr.wikipedia.org/wiki/Markdown">Wiki MarkDown</a></li>
-                <ul>
-                  <li><a href="https://fr.wikipedia.org/wiki/Markdown#Formatage">Formatage</a></li>
-                  <li><a href="https://fr.wikipedia.org/wiki/Markdown#Listes">Wiki MarkDown</a></li>
-                  <li><a href="https://fr.wikipedia.org/wiki/Markdown#Titres">Wiki MarkDown</a></li>
-                  <li><a href="https://fr.wikipedia.org/wiki/Markdown#Tableaux">Wiki MarkDown</a></li>
-                  <li><a href="https://fr.wikipedia.org/wiki/Markdown#Liens">Wiki MarkDown</a></li>
-                </ul>
-            </ol>
+              <ol>
+                <li><a href="https://fr.wikipedia.org/wiki/Markdown" target="_blank">Wiki Markdown</a>
+                    <ul>
+                      <li><a href="https://fr.wikipedia.org/wiki/Markdown#Formatage" target="_blank">Formatage</a></li>
+                      <li><a href="https://fr.wikipedia.org/wiki/Markdown#Titres" target="_blank">Titres</a></li>
+                      <li><a href="https://fr.wikipedia.org/wiki/Markdown#Listes" target="_blank">Listes</a></li>
+                      <li><a href="https://fr.wikipedia.org/wiki/Markdown#Tableaux" target="_blank">Tableaux</a></li>
+                      <li><a href="https://fr.wikipedia.org/wiki/Markdown#Liens" target="_blank">Liens</a></li>
+                    </ul>
+
+                </li>
+                <li><a href="https://fr.wikipedia.org/wiki/Markdown#Mises_en_%C5%93uvre" target="_blank">Mise en oeuvre</a></li>
+                <li><a href="https://fr.wikipedia.org/wiki/Markdown#%C3%89volutions" target="_blank">évolution</a></li>
+              </ol>
+
+              <cite>Amusez-vous, sinon ça ne vaut pas le coup</cite>
+
 
   </body>
 </html>
