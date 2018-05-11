@@ -17,6 +17,7 @@ section{
   width: 90%;
   margin: auto;
   height: 600px;
+
 }
 .content{
   margin: auto;
@@ -26,4 +27,14 @@ section{
 img{
   height: 200px;
   border-radius: 10px;
+}
+.movie{
+  width: 80%;
+  height: 80%;
+  border-radius: 10px;
+}
+#home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
