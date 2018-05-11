@@ -1,0 +1,33 @@
+
+body {
+  background-color: #00abc2;
+  width: 900px;
+  margin: auto;
+}
+
+
+
+header {
+  display: flex;
+  position: fixed;
+  width: 900px;
+  height: 200px;
+  background-color: #00bc63;
+}
+
+.logo{
+  width: ;
+
+  display: block;
+  position: relative;
+  top: 0px;
+  left: 5px;
+}
+
+ul li{
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  left: 0px;
+
+}
