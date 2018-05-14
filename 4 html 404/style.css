@@ -17,14 +17,14 @@ h1, h2{
   flex-direction: column;
   background-color: #A0A6A5;
   width: 50%;
-  height: 550px;
   border-radius: 10px;
   box-shadow: 10px 10px 8px gray;
 }
 
 img{
+  position: relative;
   width: 60%;
-
+  bottom: 10px;
 }
 .container:hover{
   box-shadow: none;
