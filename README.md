@@ -6,7 +6,7 @@
 
 ## exercice:
 
-  1. [Markdown to html](https://github.com/ludovichaute/Learning-Environment/tree/master/markdown%20to%20html)
-  2. [Markdown to html and css](https://github.com/ludovichaute/Learning-Environment/tree/dev/2%20markdown%20to%20html%20and%20css)
+  1. [Markdown to html](https://ludovichaute.github.io/Learning-Environment/1%20markdown%20to%20html/index.html)
+  2. [Markdown to html and css](https://ludovichaute.github.io/Learning-Environment/2%20markdown%20to%20html%20and%20css/index.html)
   3. [Html basic](https://ludovichaute.github.io/Learning-Environment/3%20html%20basic/index.html)
   4. [Error 404](https://ludovichaute.github.io/Learning-Environment/4%20html%20404/index.html)
