@@ -1,0 +1,31 @@
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #BCBFC2;
+}
+
+h1, h2{
+  font-family: serif;
+  text-align: center;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #A0A6A5;
+  width: 50%;
+  height: 550px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 8px gray;
+}
+
+img{
+  width: 60%;
+
+}
+.container:hover{
+  box-shadow: none;
+}
