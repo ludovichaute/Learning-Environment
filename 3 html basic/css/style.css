@@ -1,0 +1,40 @@
+header{
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  background-color: #00bc63;
+  height: 160px;
+}
+
+.logo{
+  position: relative;
+  height: 100px;
+  top: 10px;
+  left: 10px;
+  border-radius: 10px;
+}
+section{
+  width: 90%;
+  margin: auto;
+  height: 600px;
+
+}
+.content{
+  margin: auto;
+  background-color: #00abc2;
+  width: 70%;
+}
+img{
+  height: 200px;
+  border-radius: 10px;
+}
+.movie{
+  width: 80%;
+  height: 80%;
+  border-radius: 10px;
+}
+#home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
