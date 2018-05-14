@@ -2,8 +2,8 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #BCBFC2;
-}
+  background-color: #747474;
+} 
 
 h1, h2{
   font-family: serif;
@@ -17,10 +17,11 @@ h1, h2{
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-color: #A0A6A5;
+  background-color: rgba(61, 80, 77, 0.3);
   width: 50%;
   border-radius: 10px;
-  box-shadow: 10px 10px 8px gray;
+  box-shadow: 10px 10px 8px #252525;
+  padding: 10px;
 }
 
 img{
@@ -28,6 +29,19 @@ img{
   width: 50%;
   margin-bottom: 10px;
 }
+a{
+  text-decoration: none;  
+  color: #fff;  
+  border: outset rgb(131, 131, 131) 2px;
+  padding: 2px;
+  
+  background-color: rgb(51, 51, 51);
+  
+}
 .container:hover{
   box-shadow: none;
 }
+
+a:hover{
+  border: inset rgb(0, 0, 0) 2px;
+} 
