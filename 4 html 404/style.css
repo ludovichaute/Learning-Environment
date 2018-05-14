@@ -23,8 +23,6 @@ h1, h2{
 
 img{
   position: relative;
-  width: 60%;
-  bottom: 10px;
 }
 .container:hover{
   box-shadow: none;
