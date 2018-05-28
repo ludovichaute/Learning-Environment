@@ -1,15 +1,16 @@
 
 body{
   background-color: blue;
+  font-size: 120%;
 }
 .medium, .small{
   display: none;
 }
 
-
 @media only screen and (max-width: 300px) {
     body {
         background-color: red;
+        font-size: 80%;
     }
     .small{
       display: block;
@@ -21,6 +22,7 @@ body{
 @media only screen and (min-width: 300px) and (max-width: 768px) {
     body {
         background-color: green;
+        font-size: 90%;
     }
     .large, .small{
       display: none;
