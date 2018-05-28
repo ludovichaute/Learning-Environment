@@ -2,15 +2,30 @@
 body{
   background-color: blue;
 }
+.medium, .small{
+  display: none;
+}
 
 
 @media only screen and (max-width: 300px) {
     body {
         background-color: red;
     }
+    .small{
+      display: block;
+    }
+    .large, .medium{
+      display: none;
+    }
 }
 @media only screen and (min-width: 300px) and (max-width: 768px) {
     body {
         background-color: green;
+    }
+    .large, .small{
+      display: none;
+    }
+    .medium{
+      display: block;
     }
 }
