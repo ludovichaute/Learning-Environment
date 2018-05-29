@@ -303,7 +303,7 @@ footer h1
     max-zoom: 3;
     user-zoom: fixed;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) { 
     #bloc_page{
       width: 100%;
     }
